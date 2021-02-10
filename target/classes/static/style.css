@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Warcraft Font";
+    src:
+            url("font/lifecraft_font-webfont.woff") format("woff"),
+            url("font/lifecraft_font-webfont.woff2") format("woff2")
+}
+
+body {
+    font-family: "Warcraft Font";
+}
+
+#wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#middleText {
+    position:sticky;
+    font-size: 48px;
+    -webkit-text-stroke: 1px black;
+    top:30%;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
+    color: #f8c421;
+    border-top-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+#bottomText {
+    position:sticky;
+    font-size: 24px;
+    -webkit-text-stroke: 1px black;
+    top:100%;
+    width:12%;
+    height:15%;
+    margin: 0 auto;
+    padding: 3px;
+    color: #f8c421;
+    border-top-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
